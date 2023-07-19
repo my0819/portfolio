@@ -1,0 +1,49 @@
+/* 공통적으로 들어갈 것 */
+*{padding: 0; margin: 0;}
+li{list-style: none;}
+.inner{width: 1400px; margin: 0 auto;}
+.clear{clear: both;}
+
+/* 헤더 부분 */
+.header{width: 100%; height: 90px; border-bottom: 1px solid #e6e9f0; line-height: 90px;}
+.logo{float: left; width: 75px; height: 30px; padding-top: 10px;}
+
+.top_banner{float: right;}
+
+.top_banner>span>div{display: inline;}
+.top_banner>span>div>img{padding-top: 35px; padding-right: 10px;}
+.option{position: relative;}
+.option>select{border: none; position: absolute; padding-top: 40px;}
+
+.header>.inner{position: relative; width: 1400px; height: 90px;}
+.menu{position: absolute; width: 700px; left: 0; right: 0; margin: 0 auto; font-size: 18px; font-family: LINE Seed Sans KR Regular; font-weight: bolder;}
+.menu>li{float: left; padding-right: 100px;}
+.menu1{padding-left: 110px;}
+
+/*탑배너 KR 가운데 정렬 */
+
+
+/* 메인이미지 부분 */
+.mainimg{width: 100%; height: 825px; position: relative;}
+.main_bg{width: 100%; height: 450px; background-color: #06c755; position: absolute; top: 150px;}
+.main_img{width: 1500px; height: 805px; background-image: url(../images/mainimg.png); position: absolute; top: 15px; left: 0; right: 0; margin: 0 auto;}
+.phone{width: 480px; height: 623px; background-image: url(../images/phone.png); position: absolute; top: 180px; left: 0; right: 0; margin: 0 auto;}
+
+/* 콘텐츠 부분 */
+.box1{width: 100%; height: 700px; border-bottom: 1px solid #e6e9f0;}
+.box1>.inner>div{width: 25%; float: left; padding-top: 150px;}
+.box1>.inner>div>h2{padding-bottom: 10px; font-size: 33px; font-family: LINE Seed Sans;}
+.box1>.inner>div>p{padding-bottom: 10px; font-size: 14px; font-family: LINE Seed Sans KR Regular;}
+
+.box2{width: 100%; height: 250px; border-bottom: 1px solid #e6e9f0;}
+.box_text{float: left; padding-top: 90px; color: #383838;}
+.box_text>h2{font-size: 25px; font-family: LINE Seed Sans; padding-bottom: 15px;}
+.box_text>p{width: 550px; height: 40px; background-color: #dcdcdc; text-align: center; line-height: 40px; border-radius: 100px; font-size: 13px; font-family: LINE Seed Sans; font-weight: bolder;}
+.box_img{float: right; padding-top: 25px;}
+
+/* 푸터 부분 */
+.footer{width: 100%; height: 120px; line-height: 120px;}
+.footer>.inner>span{float: left; font-size: 13px; font-family: LINE Seed Sans; color: #383838;}
+.copyright{padding-right: 90px;}
+.footer>.inner>ul{float: right;}
+.footer>.inner>ul>li{float: left; padding-left: 20px;}

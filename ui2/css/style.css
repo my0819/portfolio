@@ -1,0 +1,66 @@
+/* 공통적으로 들어갈 부분 */
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+.clear{clear: both;}
+.inner{width: 1200px; margin: 0 auto;}
+
+/* 헤더부분 */
+.headr{width: 100%;}
+
+.top_gray{width: 100%; height: 42px; background-color: #ededed; line-height: 42px;}
+.top_gray>.inner>p{float: right; font-size: 12px; font-family: LINE Seed Sans KR Regular;}
+.receipt{width: 93px; height: 23px; margin: 0 auto; line-height: 23px; border: solid 1.5px #8aa230; padding: 5px 10px; margin-left: 20px;}
+
+.top_white{width: 100%; height: 76px; line-height: 76px;}
+.logo{float: left; padding-top: 10px;}
+.menu>li{float: left; padding-left: 100px;}
+.menu>li:nth-child(1){padding-left: 0;}
+.go{width: 145px; height: 39px; background-color: #8aa230; text-align: center; line-height: 39px; border-radius: 50px; float: right; font-size: 18px; font-family: LINE Seed Sans KR Regular; color: white; margin-top: 17px;}
+.menu{position: absolute; width: 830px; left: 0; right: 0; margin: 0 auto; padding-left: 150px; font-size: 20px; font-family: LINE Seed Sans KR Regular;}
+
+/* 메인이미지 부분 */
+.mainimg{width: 100%; height: 580px; background-image: url(../images/mainimg.jpg); position: relative; background-repeat: no-repeat; background-position: center center;}
+.btn{position: absolute; width: 87px; height: 86px; left: 0; right: 0; margin: 0 auto; bottom: -8%;}
+
+/* 콘텐츠 부분 */
+.contents{width: 100%; padding-top: 80px;}
+.box1{width: 100%; height: 350px;}
+.list{float: left; text-align: center; padding-left: 177px;}
+.list>h2{padding-top: 40px; font-size: 30px; color: #2f2f2f; font-family: LINE Seed Sans KR Regular;}
+.list>p{padding-top: 10px; font-size: 14px; color: #827670; font-family: LINE Seed Sans KR Thin;}
+
+.box2{width: 100%; height: 715px; background-color: #ededed;}
+.box2>.inner>h1{text-align: center; padding: 80px 0; font-size: 36px; color: #2f2f2f; font-family: LINE Seed Sans KR Bold;}
+.box2_set{width: 100%; height: 335px; padding-bottom: 70px;}
+.set_left{width: 35%; height: 335px; float: left;}
+.set_cen{width: 35%; height: 335px; float: left; margin-left: 1%;}
+.set_right{width: 25%; height: 335px; float: right; margin-left: 4%;}
+.p_box{width: 43px; height: 20px; border: solid 1px #5f5f5f; text-align: center; line-height: 20px; font-size: 12px; color: #2f2f2f; margin: 10px 0; font-family: LINE Seed Sans KR Thin;}
+.box_p{font-size: 14px; color: #2f2f2f; font-family: LINE Seed Sans KR Regular;}
+
+.right_box{width: 73px; height: 20px; border: #5f5f5f solid 1px; text-align: center; line-height: 20px; color: #2f2f2f; font-size: 12px; font-family: LINE Seed Sans KR Thin; margin-bottom: 25px;}
+.line{border-bottom: solid 1px #5f5f5f; margin: 25px 0;}
+.news{font-size: 14px; font-family: LINE Seed Sans KR Regular; color: #2f2f2f;}
+
+.box2>.inner>ul{width: 1090px; height: 30px; margin: 0 auto; line-height: 30px;}
+.box2>.inner>ul>li{float: left; }
+
+.box2>.inner>ul>li:after{display: inline; content: ""; border-right: 1px solid #656565; padding-left: 40px;}
+.box2>.inner>ul>li:before{display: inline; content: ""; padding-right: 40px;}
+
+.box2>.inner>ul>li:nth-child(1):before{padding-right: 0;}
+.box2>.inner>ul>li:nth-child(5){padding-right: 0;}
+.box2>.inner>ul>li:nth-child(5):after{display: none;}
+.guide{font-size: 22px; color: #685b55; font-family: LINE Seed Sans KR Regular;}
+
+/* 푸터 부분 */
+.footer_top{width: 100%; height: 55px; line-height: 55px; border-bottom: 1px solid #685b55;}
+.footer_top>.inner>ul>li{float: left; font-size: 15px; color: #685b55; font-family: LINE Seed Sans KR Regular;}
+.footer_top>.inner>ul>li:after{display: inline; content: "|"; padding-left: 10px;}
+.footer_top>.inner>ul>li:before{display: inline; content: ""; padding-right: 10px;}
+.footer_top>.inner>ul>li:nth-child(1):before{padding-right: 0;}
+.footer_top>.inner>ul>li:nth-child(9):after{display: none;}
+
+.footer_bottom{width: 100%; height: 133px;}
+.footer_bottom>.inner>img{padding: 30px 0;}
+.footer_bottom>.inner>p{font-size: 11px; color: #685b55; font-family: LINE Seed Sans KR Regular;}

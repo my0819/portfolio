@@ -1,0 +1,89 @@
+/* 공통 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+.inner {
+    width: 985px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+.header{width: 100%; height: 101px;}
+
+.top_header{width: 100%; height: 34px; line-height: 34px;}
+.top_header>.inner>div{float: right;}
+.login{float: left; font-size: 13px; color: #656565; font-family: Noto Sans KR Medium;}
+.login>li{float: left;}
+.login>li::before{display: inline-block; content: "|"; padding: 0 10px;}
+.login>li:nth-child(1)::before{display: none;}
+.app{float: right; width: 70px; height: 34px; background-color: #ffec48; text-align: center; border-radius: 0 0 5px 5px; color: #656565; font-size: 15px; font-family: Noto Sans KR Medium; margin-left: 30px;}
+
+.bottom_header{width: 100%; height: 67px; line-height: 67px;}
+.logo{float: left;}
+.menu{float: left; width: 690px; font-size: 20px; font-family: Noto Sans KR Black;}
+.menu>li{float: left; width: 230px; text-align: right;}
+.set{float: right; padding-top: 8px;}
+.search{margin-right: 15px;}
+
+/* 메인이미지 */
+.mainimg{width: 100%; height: 597px; background-image: url(../img/mainimg.jpg); background-repeat: no-repeat; margin-top: 25px; background-position: center center;}
+.mainimg>.inner{position: relative; width: 985px; height: 597px;}
+.main_text{position: absolute; top: 100px;}
+.main_text>h1{font-size: 55px; font-family: 빙그레체; font-weight: normal; padding-bottom: 20px;}
+.main_text>p{font-size: 17px; font-family: Noto Sans KR Light; padding-bottom: 60px;}
+.btn1{width: 135px; height: 50px; background-color: white; color: #f64e5b; text-align: center; line-height: 50px; border-radius: 50px; font-family: Noto Sans KR Medium;}
+
+/* 콘텐츠 */
+.box1{width: 100%; height: 950px;}
+.box1>.inner{position: relative; width: 985px; height: 950px; background-image: url(../img/box1_bg.jpg); background-repeat: no-repeat; background-position: center 150px;}
+.box1>.inner>h1{position: absolute; top: 125px; left: 0; right: 0; margin: 0 auto; font-size: 45px; font-family: Noto Sans KR Black; text-align: center; letter-spacing: 2px;}
+.box1>.inner>h1>span{color: #ff0000;}
+.btn2{position: absolute; width: 266px; height: 70px; text-align: center; line-height: 70px; background-color: #ffec48; border-radius: 100px; font-family: Noto Sans KR Medium; font-size: 16px; letter-spacing: 1px; bottom: 0; left: 0; right: 0; margin: 0 auto;}
+
+.box2{position: relative; width: 100%; height: 1043px; padding-top: 210px;}
+
+.box2_bg{position: absolute; width: 90%; height: 704px; background-color: #f0f0f0; border-radius: 200px 0 0 200px; right: 0; bottom: 163px;}
+
+.box2_img{position: absolute; width: 100%; height: 558px;}
+.box2_left{width: 50%; height: 558px; float: left; background-image: url(../img/box2_img.png); background-repeat: no-repeat; background-size: cover; background-position: right center;}
+.box2_right{width: 50%; height: 558px; float: right;}
+.box2_text{padding-top: 50px; padding-left: 72px;}
+.box2_text>h1{font-family: Noto Sans KR Thin; font-size: 55px; letter-spacing: 1px; padding-top: 20px;}
+.box2_text>h1>span{font-family: Noto Sans KR Black;}
+.box2_text>p{font-family: Noto Sans KR Thin; font-size: 14px; padding-top: 25px;}
+.btn3{width: 210px; height: 70px; border-radius: 100px; background-color: #ffec48; text-align: center; line-height: 70px; margin-top: 60px; font-family: Noto Sans KR medium; font-size: 16px;}
+
+.box2>.inner{position: absolute; width: 980px; left: 0; right: 0; margin: 0 auto; bottom: 0;}
+.card{float: left; width: 22%; height: 365px; background-color: white; text-align: center; border-radius: 10px; box-shadow: 0 0 10px #d1d1d1; margin-left: 3%;}
+.card>img:nth-child(1){padding: 65px 0 20px 0;}
+.card>h4{font-family: Noto Sans KR Black; font-size: 19px;}
+.card>p{font-family: Noto Sans KR Medium; font-size: 14px; color: #8b8b8d; padding: 10px 0 20px 0;}
+
+.box3{position: relative; width: 100%; height: 750px; padding-top: 250px;}
+.box3_bg{position: absolute; right: 0; background-color: #ffec48; width: 60%; height: 600px;}
+.box3_left{position: absolute; left: 30%; bottom: 146px; float: left;}
+.box3_right{position: absolute; right: 11%; top: 380px; float: right;}
+.box3_right>h4{font-family: Noto Sans KR Black; font-size: 55px;}
+.youtube{font-family: Noto Sans KR Thin; font-size: 55px;}
+.youtube_text{font-family: Noto Sans KR Light; font-size: 18px; padding-top: 20px;}
+.btn4{width: 207px; height: 70px; border-radius: 100px; background-color: white; font-family: Noto Sans KR Medium; font-size: 18px; text-align: center; line-height: 70px; margin-top: 40px;}
+
+/* 푸터 */
+.footer{width: 100%; height: 256px; border-top: 1px solid #dedede; color: #bfbfbf;}
+.copyright{padding-top: 45px; text-align: center;}
+.copyright>img{padding-bottom: 15px;}
+.copyright>ul>li{float: left; font-family: Noto Sans KR Medium; font-size: 17px;}
+.copyright>ul>li::before{display: inline-block; content: "|"; padding: 0 20px;}
+.copyright>ul>li:nth-child(1)::before{display: none;}
+.copyright>ul{padding-left: 320px; padding-bottom: 20px;}
+.copyright>p{font-family: Noto Sans KR Medium; font-size: 14px;}
