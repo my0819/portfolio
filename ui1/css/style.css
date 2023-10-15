@@ -18,7 +18,7 @@ li{list-style: none;}
 .header>.inner{position: relative; width: 1400px; height: 90px;}
 .menu{position: absolute; width: 700px; left: 0; right: 0; margin: 0 auto; font-size: 18px; font-family: LINE Seed Sans KR Regular; font-weight: bolder;}
 .menu>li{float: left; padding-right: 100px;}
-.menu1{padding-left: 110px;}
+.menu1{padding-left: 70px;}
 
 /*탑배너 KR 가운데 정렬 */
 
