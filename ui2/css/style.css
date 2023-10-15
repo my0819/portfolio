@@ -45,8 +45,8 @@ ul{list-style: none;}
 .box2>.inner>ul{width: 1090px; height: 30px; margin: 0 auto; line-height: 30px;}
 .box2>.inner>ul>li{float: left; }
 
-.box2>.inner>ul>li:after{display: inline; content: ""; border-right: 1px solid #656565; padding-left: 40px;}
-.box2>.inner>ul>li:before{display: inline; content: ""; padding-right: 40px;}
+.box2>.inner>ul>li:after{display: inline; content: ""; border-right: 1px solid #656565; padding-left: 30px;}
+.box2>.inner>ul>li:before{display: inline; content: ""; padding-right: 30px;}
 
 .box2>.inner>ul>li:nth-child(1):before{padding-right: 0;}
 .box2>.inner>ul>li:nth-child(5){padding-right: 0;}
